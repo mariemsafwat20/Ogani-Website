@@ -6,7 +6,10 @@
     <title>Lab 3 Ogani</title>
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/fontawesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+
 </head>
 <body>
     <header class="header">
@@ -30,7 +33,7 @@
                     </div>
         
                     <div class="header-top-right-language">
-                        <img src="img/language.png" alt="">
+                        <img src="images/icon/us.webp" alt="">
                         <span>English</span>
                         <i class="fa-solid fa-angle-down header-icon line"></i>
                     </div>
@@ -44,9 +47,11 @@
             </div>
         </div>
 
-        <div class="header-bottom">
+        <div class="header-bottom container mt-3">
             <div class="header-logo">
-                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                <a href="./index.html">
+                    <img src="images/icon/logo.webp" alt="">
+                </a>
             </div>
     
             <nav class="header-menu">
@@ -71,7 +76,138 @@
         </div>
     </header>
 
-    <!-- Footer -->
+    <!-- intro Section -->
+    <section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col col-12 col-lg-3">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-hamburger me-2" aria-hidden="true"></i>All departments
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fresh Meat</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Vegetables</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fruit &amp; Nut Gifts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fresh Berries</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Ocean Foods</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Butter &amp; Eggs</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fastfood</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fresh Onion</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Papayaya &amp; Crisps</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Oatmeal</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link text-dark">Fresh Bananas</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-9 mt-4 mt-lg-0">
+                    <div class="row">
+                        <div class="col col-md-8 col-12">
+                            <div class="search-box d-flex align-items-center">
+                                <div class="search-categories">
+                                    <strong>All Categories</strong>
+                                    <i class="ms-2 ms-xl-5 fas fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <span class="line"></span>
+                                <div class="search-field">
+                                    <input class="search-input" type="text" placeholder="What do you need?">
+                                    <button>Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-4 col-12">
+                            <div class="support d-flex align-items-center">
+                                <div class="phone-icon">
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="number">
+                                    <h5>01751-210150</h5>
+                                    <h6>support 24/7 time</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="banner mt-4">
+                                <h6>FRUIT FRESH</h6>
+                                <h1>
+                                    Vegetable <br>
+                                    100% Organic
+                                </h1>
+                                <p>
+                                    Free Pickup and Delivery Available
+                                </p>
+                                <button>SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- First Section -->
+    <section>
+        <div class="container">
+            <div class="card-group">
+                <div class="card m-3 border-white">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-5.jpg.webp" class="card-img-top" alt="...">
+                    <button class="btn btn-primary w-75 mx-auto position-control-team"> drink fruits </button>
+                </div>
+                <div class="card m-3 border-white">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg.webp" class="card-img-top" alt="...">
+                    <button class="btn btn-primary w-75 mx-auto position-control-team"> drink fruits </button>
+                </div>
+                <div class="card m-3 border-white">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg.webp" class="card-img-top" alt="...">
+                    <button class="btn btn-primary w-75 mx-auto position-control-team"> drink fruits </button>
+                </div>
+                <div class="card m-3 border-white">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg.webp" class="card-img-top" alt="...">
+                    <button class="btn btn-primary w-75 mx-auto position-control-team"> drink fruits </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First Section -->
+
+    <!-- First Section -->
+
+    <!-- First Section -->
+
+        
+
 </body>
 </html>
 
